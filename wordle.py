@@ -38,7 +38,6 @@ def main():
     print("Welcome to Wordle for Abby.")
     count = 0
     word = get_word()
-    print(word)
     while(count < 6):
         guess = get_guess()
         count +=1
